@@ -12,7 +12,10 @@ class ApplicationController < ActionController::Base
 
   def enhanced_cart
     @enhanced_cart ||= Product.where(id: cart.keys).map {|product| { product:product, quantity: cart[product.id.to_s] } }
+    # puts @enhanced_cart
+    # return @enhanced_cart
   end
+  # make enhanced_cart method is available to the views
   helper_method :enhanced_cart
 
   def cart_subtotal_cents
