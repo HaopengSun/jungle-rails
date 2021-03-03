@@ -1,6 +1,11 @@
 class CartsController < ApplicationController
 
   def show
+    total = 0
+    enhanced_cart.each do |item|
+      total += item[:quantity].to_i
+    end
+    @total = total
   end
 
   def add_item
