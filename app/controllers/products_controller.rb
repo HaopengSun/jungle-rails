@@ -1,6 +1,4 @@
 class ProductsController < ApplicationController
-  # HTTP Basic authentication
-  # http_basic_authenticate_with name: ENV["USERNAME"], password:ENV["PASSWORD"]
 
   def index
     @products = Product.all.order(created_at: :desc)
