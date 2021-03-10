@@ -4,6 +4,8 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## screenshots
 
+home page
+!["home"](https://github.com/HaopengSun/jungle-rails/blob/master/src/screenshots/home-page.png)
 
 ## Setup
 
