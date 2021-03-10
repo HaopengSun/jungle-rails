@@ -7,6 +7,24 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 home page
 !["home"](https://github.com/HaopengSun/jungle-rails/blob/master/screenshots/home-page.png)
 
+admin dashboard
+!["home"](https://github.com/HaopengSun/jungle-rails/blob/master/screenshots/admin-dashboard.png)
+
+admin all products
+!["home"](https://github.com/HaopengSun/jungle-rails/blob/master/screenshots/admin-products.png)
+
+product detail
+!["home"](https://github.com/HaopengSun/jungle-rails/blob/master/screenshots/product-detail.png)
+
+chech out
+!["home"](https://github.com/HaopengSun/jungle-rails/blob/master/screenshots/check-out.png)
+
+payment
+!["home"](https://github.com/HaopengSun/jungle-rails/blob/master/screenshots/payment.png)
+
+order confirmed
+!["home"](https://github.com/HaopengSun/jungle-rails/blob/master/screenshots/order-confirmed.png)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
